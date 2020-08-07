@@ -6,14 +6,24 @@
     </head>
     <body>
         <div class="forms">
+            <div id="Google_Logo">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                    alt="Google Logo" width="300">
+            </div>
+            
             <form id="basic_search" class="form" action="https://google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
+                <input name="q" type="text" style="width: 500px; height: 30px;">
+                <br>
+                <div class="button_displays" display: block>
+                    <input id="bs_submit" class="sbtn" type="submit" value="Google Search">
+                    <input id="bs_btnI" class="sbtn" name="btnI" type="submit" value="I'm Feeling Lucky">
+                </div>
             </form>
-            <button>I'm feeling lucky</button>
+            <div style="position: relative">
+                <a href="ImageSearch.html"><button>Image Search</button></a>
+                <a href="AdvancedSearch.html"><button>Advanced Search</button></a>
+            </div>
         </div>
         
-        <a href="ImageSearch.html"><button>Image Search</button></a>
-        <a href="AdvancedSearch.html"><button>Advanced Search</button></a>
     </body>
 </html>

@@ -12,7 +12,29 @@ html, body {
     margin: auto;
 }
 
+.button_displays {
+    padding: 10px;
+    margin-inline-start: 100px;
+}
+
+.sbtn {
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+#bs_btnI {
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
 #advanced_search_submit {
     background-color: blue;
-    text-emphasis-color: white;
+    color: white;
+}
+
+#Google_Logo {
+    padding-inline-start: 100px;
 }
