@@ -12,6 +12,11 @@ html, body {
     margin: auto;
 }
 
+.search_bar {
+    width: 500px; 
+    height: 30px;
+}
+
 .button_displays {
     padding: 10px;
     margin-inline-start: 100px;
@@ -35,6 +40,6 @@ ul {
     color: white;
 }
 
-#Google_Logo {
+.Google_Logo {
     padding-inline-start: 100px;
 }
