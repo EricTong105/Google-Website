@@ -4,20 +4,32 @@
         <title>Advanced Search</title>
         <link rel="stylesheet" href="WebsiteStyles.css">
     </head>
-    <body>
-        <div class="forms">
+    <body id="AS_body" style="display:block">
+        <div style="width:100%; height: 60px; margin: 0 auto; background: #e6eeff;">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                alt="Google Logo" width="100" height="35" style="padding:12px">
+        </div>
+        <div style="font-size:25px; font-family:sans-serif; color:red; padding:20px;">Advanced Search</div>
+        <div style="background-color: gray; width: 100%; height: 1px;"></div>
+        <p style="line-height: 20px">
+            <br>
+        </p>
+        <div class="forms" style="margin-left: 40px">
+            <h1 style="font-size:20px; font-family:sans-serif; font-weight:lighter">Find pages with ...</h1>
             <form id="advanced_search" class="form" action="https://google.com/search">
                 <ul>
-                    <li>Find pages with... "all these words:" &emsp; &emsp; &emsp; &nbsp;<input type="text" name="as_q"></li>
-                    <li>Find pages with... "this exact word or phrase:" <input type="text" name="as_epq"></li>
-                    <li>Find pages with "any of these words:" &emsp; &emsp; &ensp; <input type="text" name="as_oq"></li>
-                    <li>Find pages with... "none of these words" &emsp; &ensp; &nbsp;<input type="text" name="as_eq"></li>
+                    <li>all these words: <input type="text" name="as_q" class="AS_search_bars"></li> 
+                    <li>this exact word or phrase: <input type="text" name="as_epq" class="AS_search_bars"></li>
+                    <li>any of these words: &emsp; &emsp; &ensp; <input type="text" name="as_oq" class="AS_search_bars"></li>
+                    <li>none of these words: &emsp; &ensp; &nbsp;<input type="text" name="as_eq" class="AS_search_bars"></li>
                 </ul>
-                    <input id="advanced_search_submit" type="submit" value="Google Advanced Search">
+                <br>
+                <input id="advanced_search_submit" type="submit" value="Google Advanced Search" style="padding:5px;">
             </form>
         </div>
-
-        <a href="BasicSearch.html"><button>Basic Search</button></a>
-        <a href="ImageSearch.html"><button>Image Search</button></a>
+        <div class="search_btns">
+            <a href="BasicSearch.html"><button>Basic Search</button></a>
+            <a href="ImageSearch.html"><button>Image Search</button></a>
+        </div>
     </body>
 </html>
